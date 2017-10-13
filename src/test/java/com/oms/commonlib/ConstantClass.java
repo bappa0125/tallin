@@ -12,8 +12,9 @@ public class ConstantClass {
 	
 	public static String joshuaExtnPath = ".\\extensions\\chrome-ext.crx";
 	
-	public static String chromeDriverPath = ".\\chromeDriver\\chromedriver.exe";
-
+	//public static String chromeDriverPath = ".\\chromeDriver\\chromedriver.exe";
+	// Application Linux
+	public static String chromeDriverPath = "./chromeDriver/chromedriver";
 	public static WebDriver globaldriver;
 	
 	//

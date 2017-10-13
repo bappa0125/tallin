@@ -32,12 +32,13 @@ public class ReporterConfig {
        static SimpleDateFormat sdf = new SimpleDateFormat("HH-mm-ss");
       // System.out.println( sdf.format(cal.getTime()) );
 	
-	public static String ReportLocation=ConstantClass.projectDir+"\\Utilities\\Report\\CreateOrder"+ sdf.format(cal.getTime())+".html";
+	public static String ReportLocation=ConstantClass.projectDir+"/Utilities/Report/estonia"+ sdf.format(cal.getTime())+".html";
 	
 public static void intialiseconfig()
 {
-	report=new ExtentReports(ReportLocation, true);
-	logger=report.startTest("CreateOrder");	
+	report=new ExtentReports(ReportLocation,false);
+	
+	logger=report.startTest("Tallin");	
 
 }
 
